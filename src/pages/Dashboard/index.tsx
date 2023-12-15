@@ -11,8 +11,8 @@ import { Input } from "@mui/material";
 const Dashboard = () => {
   const [food, setFood] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
-  const [category, setCategory] = useState<any>(null);
   const [searchQuery, setSearchQuery] = useState("");
+  const [category, setCategory] = useState<any>(null);
 
   const getData = async () => {
     try {

@@ -1,11 +1,10 @@
-import React from "react";
 import FooterComponent from "../../components/Footer";
 import NavbarComponent from "../../components/Navbar";
 import logo from "../../assets/img/logo.png";
 
 import { FaLongArrowAltRight } from "react-icons/fa";
 
-const AboutUs: React.FC = () => {
+const AboutUs = () => {
   return (
     <>
       <NavbarComponent />
